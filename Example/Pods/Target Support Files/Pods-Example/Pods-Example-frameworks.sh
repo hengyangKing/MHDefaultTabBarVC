@@ -104,10 +104,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KingBaseCategory/KingBaseCategory.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MHDefaultTabBarVC/MHDefaultTabBarVC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KingBaseCategory/KingBaseCategory.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MHDefaultTabBarVC/MHDefaultTabBarVC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

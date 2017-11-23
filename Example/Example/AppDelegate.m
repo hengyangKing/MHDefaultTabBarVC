@@ -16,10 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    MHDefaultTabBarController *tabbar = [MHDefaultTabBarController MusicHomeTabBar];
-    self.window.rootViewController = tabbar;
-    [self.window makeKeyWindow];
+    self.window = [[MHWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [MHDefaultTabBarController MusicHomeTabBar];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

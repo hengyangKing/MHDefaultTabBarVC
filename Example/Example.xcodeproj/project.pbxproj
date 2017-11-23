@@ -13,6 +13,7 @@
 		094F170A1FC6B42600E54A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094F17091FC6B42600E54A5F /* Assets.xcassets */; };
 		094F170D1FC6B42600E54A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F170B1FC6B42600E54A5F /* LaunchScreen.storyboard */; };
 		094F17101FC6B42600E54A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F170F1FC6B42600E54A5F /* main.m */; };
+		094F173E1FC72A7B00E54A5F /* MHWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F173D1FC72A7B00E54A5F /* MHWindow.m */; };
 		D11CEF3BED1FB562AF64EA06 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304BD1A33F829A405208B0D9 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		094F170C1FC6B42600E54A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		094F170E1FC6B42600E54A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094F170F1FC6B42600E54A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		094F173C1FC72A7B00E54A5F /* MHWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWindow.h; sourceTree = "<group>"; };
+		094F173D1FC72A7B00E54A5F /* MHWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHWindow.m; sourceTree = "<group>"; };
 		304BD1A33F829A405208B0D9 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701DAFD1AB95341FB5223486 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		897743258DCDE04EC8CE0090 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 			children = (
 				094F17001FC6B42600E54A5F /* AppDelegate.h */,
 				094F17011FC6B42600E54A5F /* AppDelegate.m */,
+				094F173C1FC72A7B00E54A5F /* MHWindow.h */,
+				094F173D1FC72A7B00E54A5F /* MHWindow.m */,
 				094F17031FC6B42600E54A5F /* ViewController.h */,
 				094F17041FC6B42600E54A5F /* ViewController.m */,
 				094F17061FC6B42600E54A5F /* Main.storyboard */,
@@ -192,11 +197,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KingBaseCategory/KingBaseCategory.framework",
 				"${BUILT_PRODUCTS_DIR}/MHDefaultTabBarVC/MHDefaultTabBarVC.framework",
+				"${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KingBaseCategory.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MHDefaultTabBarVC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZLBadge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -227,6 +234,7 @@
 			files = (
 				094F17051FC6B42600E54A5F /* ViewController.m in Sources */,
 				094F17101FC6B42600E54A5F /* main.m in Sources */,
+				094F173E1FC72A7B00E54A5F /* MHWindow.m in Sources */,
 				094F17021FC6B42600E54A5F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

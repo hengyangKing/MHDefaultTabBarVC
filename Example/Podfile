@@ -8,6 +8,8 @@ source'https://github.com/CocoaPods/Specs.git'
 
 target 'Example' do
 	pod 'MHDefaultTabBarVC', :path =>'../'
+    pod 'WZLBadge'
+
 
 
 end
