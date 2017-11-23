@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+use_frameworks!
+
+#私有库
+source'https://git.coding.net/hengyang_King/MusicHomeSpecs.git'
+#公有库
+source'https://github.com/CocoaPods/Specs.git' 
+
+target 'Example' do
+	pod 'MHDefaultTabBarVC', :path =>'../'
+
+
+end

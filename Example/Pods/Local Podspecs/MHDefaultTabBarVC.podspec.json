@@ -1,0 +1,33 @@
+{
+  "name": "MHDefaultTabBarVC",
+  "version": "0.0.1",
+  "summary": "the MusicHome  tabbar.",
+  "description": "the image tabbar for the MusicHome",
+  "homepage": "https://github.com/hengyangKing/MHDefaultTabBarVC",
+  "license": "MIT",
+  "authors": {
+    "hengyangKing": "hengyangKing.yeah.net"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/hengyangKing/MHDefaultTabBarVC.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "dependencies": {
+    "KingBaseCategory/UIImage+": [
+
+    ],
+    "KingBaseCategory/UIColor+": [
+
+    ],
+    "KingBaseCategory/UIFont+": [
+
+    ]
+  }
+}

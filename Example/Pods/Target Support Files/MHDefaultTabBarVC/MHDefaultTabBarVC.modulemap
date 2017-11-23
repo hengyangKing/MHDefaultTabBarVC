@@ -1,0 +1,6 @@
+framework module MHDefaultTabBarVC {
+  umbrella header "MHDefaultTabBarVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

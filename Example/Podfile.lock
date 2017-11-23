@@ -1,0 +1,25 @@
+PODS:
+  - KingBaseCategory/NSObject+ (0.3.8)
+  - KingBaseCategory/UIColor+ (0.3.8)
+  - KingBaseCategory/UIFont+ (0.3.8):
+    - KingBaseCategory/NSObject+
+  - KingBaseCategory/UIImage+ (0.3.8)
+  - MHDefaultTabBarVC (0.0.1):
+    - KingBaseCategory/UIColor+
+    - KingBaseCategory/UIFont+
+    - KingBaseCategory/UIImage+
+
+DEPENDENCIES:
+  - MHDefaultTabBarVC (from `../`)
+
+EXTERNAL SOURCES:
+  MHDefaultTabBarVC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KingBaseCategory: dd0751fd5201bab2786feaf46a33c2a57fbfb3d5
+  MHDefaultTabBarVC: a1b90d9cb8ad3bb3ed1e395abe46fbeb2b62484f
+
+PODFILE CHECKSUM: 3e4470ea2aa1716ad943ee1195eac12780191ad1
+
+COCOAPODS: 1.3.1
