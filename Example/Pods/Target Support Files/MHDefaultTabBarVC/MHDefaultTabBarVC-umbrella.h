@@ -11,8 +11,8 @@
 #endif
 
 #import "MHDefaultTabBarController.h"
-#import "MHTabBarConfig.h"
 #import "MHTabBarItemConfig.h"
+#import "TestViewController.h"
 
 FOUNDATION_EXPORT double MHDefaultTabBarVCVersionNumber;
 FOUNDATION_EXPORT const unsigned char MHDefaultTabBarVCVersionString[];

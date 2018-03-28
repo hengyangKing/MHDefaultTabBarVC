@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MHTabBarConfig.h"
 #import "MHTabBarItemConfig.h"
 @interface MHDefaultTabBarController : UITabBarController
 /**

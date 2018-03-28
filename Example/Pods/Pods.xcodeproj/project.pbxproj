@@ -3,17 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004EC35F52608515DB0F1AE3FB1D8FB5 /* MHDefaultTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518ECC2725D8CCF77E6F4F0E1D5A3979 /* MHDefaultTabBarController.m */; };
 		00702C3CCAC63E24A7F77A9A310325B3 /* NSObject+MHJDeviceTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B649531E9209BBC68E05341E11A7C6AB /* NSObject+MHJDeviceTools.m */; };
-		094F17411FC73B2000E54A5F /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 094F173F1FC73B2000E54A5F /* TestViewController.h */; };
-		094F17421FC73B2000E54A5F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F17401FC73B2000E54A5F /* TestViewController.m */; };
+		082E355FB31DDC070630652F178CE9F1 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 837FFACF9CAA9422FBF0BAA92E887FAF /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A714791A32AAC91E4704C95E7D97E0C /* UIFont+MHJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001CCF3E7D705C4975BAE734AC904FF /* UIFont+MHJFont.m */; };
-		179134ABC5F9F57CA622C54E42172C8F /* MHDefaultTabBarVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 560EC675B483DC8547DA711AFA38AAD7 /* MHDefaultTabBarVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B4ECF54442DA6029C115B65278A00C3 /* MHDefaultTabBarVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F207F975C7C5625D734A0EE569ACAEFD /* MHDefaultTabBarVC-dummy.m */; };
+		0C51527AB9868415B3598AC07F453C2B /* MHDefaultTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F53AC91DE8CE7E8085146DF90EF0FE2 /* MHDefaultTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		328B242D9D36B66F117F5276260F1375 /* CAAnimation+WAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F8F8BEB828BE52C04496B0F28C8CE /* CAAnimation+WAnimation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3B894769E44BCAC24367287C52845319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D072E12E8009F8438FD3371C0B09F79 /* Foundation.framework */; };
 		3CA493DFEB9B7616F764B21FDD5C3A54 /* UIBarButtonItem+WZLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F76F9A6D65C0F59945D7C01F882EC979 /* UIBarButtonItem+WZLBadge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -21,6 +18,8 @@
 		42417FCF6004971E4177E3234B22F52A /* UIImage+KingExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BC838FF8D62B041E009F6AC43AAD7AE4 /* UIImage+KingExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		427BABCCAB58D44BE69CED6150C2CC6F /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100797EE5C45B441D2058D55343A7B3 /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		443340FFB4441B664F9AA642C64D17D8 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7E4825C085C1F39661C98ED8F7518 /* UIImage+FixOrientation.m */; };
+		459CE24804E2358F5392EAA1EB9F2F4E /* MHDefaultTabBarVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8324E6D3F2EF2FDAE43E03ACD4EE0E /* MHDefaultTabBarVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460A62773F56F0CC81E202ACBFBCF83D /* MHDefaultTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D7A0DDB2EEA0F01FF543302B38D7DF /* MHDefaultTabBarController.m */; };
 		46292CD4985103871B835C255F1BA3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D072E12E8009F8438FD3371C0B09F79 /* Foundation.framework */; };
 		4BA67FFDE2340CD6B1EFFDF05BF3CB74 /* UITabBarItem+WZLBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = E17FAF946019055146ED2FDA8C6B7EF2 /* UITabBarItem+WZLBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		547451F693C2F72C3E02FDE3CEB131E5 /* CAAnimation+WAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AEFAC0D4425D29B37A78C592719468 /* CAAnimation+WAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,21 +27,22 @@
 		56FB3E6B4C8FDFDD17C203C557BA1232 /* UIImage+Water.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CE9B32024ED4C7EF42AE4B95FFB834 /* UIImage+Water.m */; };
 		5900BFEF567D6D3534BE140453F891F3 /* UIImage+MHBundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1146DCC8D3F1038C03E72AF3900F01 /* UIImage+MHBundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D444D0B9CAB70D9936E7ED7733D6C8B /* UITabBarItem+WZLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DBCFC4560F92DCA986607C87E495A /* UITabBarItem+WZLBadge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5FAC8BC4AF45FD9F1E1963DCB8E7E6EA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B36AAF33779716DF42A1307EF64532 /* TestViewController.m */; };
+		6BEF69C364C33FD87639D826181F89C9 /* MHDefaultTabBarVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D995C02AF05010876C8D47E9F2CA61 /* MHDefaultTabBarVC-dummy.m */; };
 		6C9E95800F547A9E96B008C8457139EC /* WZLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 242A0C1AA152C74E0235491861CABD28 /* WZLBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7005A7506B50C9D1AD3E2EF9D8C31B12 /* WZLBadge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF7477EF630B2A67175501BB3C4E314 /* WZLBadge.framework */; };
 		7730893520E5532FCE69AE64EC2BCE3C /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D78ECFEE1BB5C47D7BB2BB45CF82C3 /* UIColor+Extend.m */; };
+		7BA54B9D79C1B4879C79568AD3E94394 /* MHTabBarItemConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE2056DDE096B70CDF1FDE76F74042E /* MHTabBarItemConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E6E4E90AFD9A80EDADA2B0DECFCF0F6 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
 		80748B6EC018102C9642C769139B1163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D072E12E8009F8438FD3371C0B09F79 /* Foundation.framework */; };
 		82929D94D445C2A5D56E54B3ACE3E0BA /* UIImage+Cut.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B1C7B50BC394FF3CA1CA9BB2E39FF /* UIImage+Cut.m */; };
 		89A8F34F4DE65BC0F1044CCFB3DF01FD /* UIView+WZLBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7838A02B397D20B22AEC9C0938B148 /* UIView+WZLBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C04135E3A6519C57955E59F85D78C98 /* UIImage+Water.h in Headers */ = {isa = PBXBuildFile; fileRef = 6559FD6E4E52ED1D7A0B8594D428854D /* UIImage+Water.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EC1E169AC188294D451EF629DC15C89 /* MHDefaultTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = BECAE4E1FF4E8432BD147CB2F6BB1FC7 /* MHDefaultTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ECA51FFD96FCC259BB4387A09A54E19 /* MHTabBarItemConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 951C573238A24680865870B8AC49FBFE /* MHTabBarItemConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95D1BFC14C0585574F147529D3CC8801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D072E12E8009F8438FD3371C0B09F79 /* Foundation.framework */; };
-		969F59F925750B1ED9AF7223ADDB6725 /* MHTabBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB3A4450BC5F89EC755FB8EAEFEE575 /* MHTabBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F017527F28F4C3F861448E900D3E13C /* KingBaseCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFEAB8DD71582CA615C370D47B9D09B /* KingBaseCategory.framework */; };
 		A06851633B1F4B33336DBAE2870BF636 /* UIImage+KingExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFA4B1D227D3BDB8764D75B6D6B08D /* UIImage+KingExtension.m */; };
 		A6400EAAF47CC56496C3431C132B37DC /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C014422709CF5FA69B2B20EA67EE2EB /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8326E74B505C49B505F5C394BD8851A /* MHTabBarItemConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C057E30A06BAAF15C8A7393D832D41B0 /* MHTabBarItemConfig.m */; };
 		B958EB4F1B51AA02BCA2E0A3349EE558 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEF53C62EB668E61CA9FE36628A002A /* UIImage+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAEEF30547F6DACF571387D350DF541F /* WZLBadge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED4F3D22E019D8BE627817C6E53055C /* WZLBadge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBF7EBC53C765DF7C933FE9AA1627DAD /* UIImage+MHBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E727B317BBF83F2964A5067411CE76AB /* UIImage+MHBundleImage.m */; };
@@ -52,11 +52,9 @@
 		CC52D9AF0DE518C21703E98057ADCC5F /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD505F248BE427BFA83DBC732D04F676 /* KingBaseCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8C7701CE2A88E40075DC58A6CA8C13 /* KingBaseCategory-dummy.m */; };
 		D11DE0965DD1B8694DCF4EC15EEF82AB /* UIBarButtonItem+WZLBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADE247A9CBDD47BB057EBBA2C3088FD /* UIBarButtonItem+WZLBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3F22D6E4FBB6E495CB16F65CD00D0EB /* MHTabBarItemConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E943E6185FDF5B0BB82E8C3DE93B932 /* MHTabBarItemConfig.m */; };
 		DBAEC1A79E853BA2C1DB850631F1CB4A /* UIImage+Cut.h in Headers */ = {isa = PBXBuildFile; fileRef = 89491DA043E808BB2C5F5626531DD375 /* UIImage+Cut.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E274D77D3CF0AAEDE8EBF8BCDEEF989A /* WZLBadgeImport.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB5FAEE5E9CE6A9F5454096EA040F84 /* WZLBadgeImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9BA014D12D6A494C15604EAF869EEAF /* WZLBadge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B72AA58C05CB3B68A7DC1848B6CEB2E /* WZLBadge-dummy.m */; };
-		F8276306EFFA779EFA457CB2DC93FCD5 /* MHTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F4027D822DFE631553D1C0A1D48537CC /* MHTabBarConfig.m */; };
 		FF05C28CFD3FA813606B53E6425EAA3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137C756E21BCAB95934B6139AF626BE5 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,78 +98,76 @@
 
 /* Begin PBXFileReference section */
 		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		094F173F1FC73B2000E54A5F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = Classes/TestViewController.h; sourceTree = "<group>"; };
-		094F17401FC73B2000E54A5F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = Classes/TestViewController.m; sourceTree = "<group>"; };
 		0ADE247A9CBDD47BB057EBBA2C3088FD /* UIBarButtonItem+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+WZLBadge.h"; path = "WZLBadge/BarItem/UIBarButtonItem+WZLBadge.h"; sourceTree = "<group>"; };
-		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		12D78ECFEE1BB5C47D7BB2BB45CF82C3 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "Classes/UIColor/UIColor+Extend.m"; sourceTree = "<group>"; };
 		137C756E21BCAB95934B6139AF626BE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1DF825CC251A04112696F5C5BA476092 /* KingBaseCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KingBaseCategory.xcconfig; sourceTree = "<group>"; };
 		242A0C1AA152C74E0235491861CABD28 /* WZLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZLBadgeProtocol.h; path = WZLBadge/Protocol/WZLBadgeProtocol.h; sourceTree = "<group>"; };
+		29D995C02AF05010876C8D47E9F2CA61 /* MHDefaultTabBarVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHDefaultTabBarVC-dummy.m"; sourceTree = "<group>"; };
 		2AE2D5508084CE2615696838694C3007 /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "Classes/UIImage/UIImage+Color.m"; sourceTree = "<group>"; };
 		2C014422709CF5FA69B2B20EA67EE2EB /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "Classes/UIColor/UIColor+Extend.h"; sourceTree = "<group>"; };
-		2CB3A4450BC5F89EC755FB8EAEFEE575 /* MHTabBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHTabBarConfig.h; path = Classes/MHTabBarConfig.h; sourceTree = "<group>"; };
 		2ED4F3D22E019D8BE627817C6E53055C /* WZLBadge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLBadge-umbrella.h"; sourceTree = "<group>"; };
 		2F7838A02B397D20B22AEC9C0938B148 /* UIView+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WZLBadge.h"; path = "WZLBadge/View/UIView+WZLBadge.h"; sourceTree = "<group>"; };
-		307EE119E6568E4D1A369CF5C1B39710 /* MHDefaultTabBarVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MHDefaultTabBarVC.modulemap; sourceTree = "<group>"; };
+		301932D70F4583E40B724DD88F298626 /* MHDefaultTabBarVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHDefaultTabBarVC.xcconfig; sourceTree = "<group>"; };
 		36AEFAC0D4425D29B37A78C592719468 /* CAAnimation+WAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+WAnimation.h"; path = "WZLBadge/CategorySupport/CAAnimation+WAnimation.h"; sourceTree = "<group>"; };
 		3DF7477EF630B2A67175501BB3C4E314 /* WZLBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZLBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F96E9C33D5EDB7FB322AA6C57E67AF6 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F96E9C33D5EDB7FB322AA6C57E67AF6 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4001CCF3E7D705C4975BAE734AC904FF /* UIFont+MHJFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MHJFont.m"; path = "Classes/UIFont/UIFont+MHJFont.m"; sourceTree = "<group>"; };
 		4298D71476EC4E2553A821D161211190 /* KingBaseCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KingBaseCategory-prefix.pch"; sourceTree = "<group>"; };
 		462DBCFC4560F92DCA986607C87E495A /* UITabBarItem+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+WZLBadge.m"; path = "WZLBadge/BarItem/UITabBarItem+WZLBadge.m"; sourceTree = "<group>"; };
 		4D072E12E8009F8438FD3371C0B09F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E784062BBCA0B7C6317D11E338ED278 /* WZLBadge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZLBadge.xcconfig; sourceTree = "<group>"; };
 		4E8D008561817BE84378A22667782E87 /* UIView+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WZLBadge.m"; path = "WZLBadge/View/UIView+WZLBadge.m"; sourceTree = "<group>"; };
-		518ECC2725D8CCF77E6F4F0E1D5A3979 /* MHDefaultTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHDefaultTabBarController.m; path = Classes/MHDefaultTabBarController.m; sourceTree = "<group>"; };
-		52601602CDB2C3C796FA15733C7CE694 /* MHDefaultTabBarVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHDefaultTabBarVC.xcconfig; sourceTree = "<group>"; };
 		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		560EC675B483DC8547DA711AFA38AAD7 /* MHDefaultTabBarVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHDefaultTabBarVC-umbrella.h"; sourceTree = "<group>"; };
-		59CF82000A28358D2FB1177249B79B53 /* WZLBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZLBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56762A25DD0BC160B8F4762758B1074D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CF82000A28358D2FB1177249B79B53 /* WZLBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZLBadge.framework; path = WZLBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		609F8F8BEB828BE52C04496B0F28C8CE /* CAAnimation+WAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+WAnimation.m"; path = "WZLBadge/CategorySupport/CAAnimation+WAnimation.m"; sourceTree = "<group>"; };
-		60E6B6CF4765C2EEFEF0FDA777D5E4C3 /* MHDefaultTabBarVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHDefaultTabBarVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E6B6CF4765C2EEFEF0FDA777D5E4C3 /* MHDefaultTabBarVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MHDefaultTabBarVC.framework; path = MHDefaultTabBarVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6559FD6E4E52ED1D7A0B8594D428854D /* UIImage+Water.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Water.h"; path = "Classes/UIImage/UIImage+Water.h"; sourceTree = "<group>"; };
 		66CB7A9C9BD237D1F30299894A8AA2C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B43417ED2F2E328DF7A6B3AC966305 /* WZLBadge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLBadge-prefix.pch"; sourceTree = "<group>"; };
 		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		6D1146DCC8D3F1038C03E72AF3900F01 /* UIImage+MHBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MHBundleImage.h"; path = "Classes/UIImage/UIImage+MHBundleImage.h"; sourceTree = "<group>"; };
 		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		784B1417A030CD9C79D23D36D76FE830 /* KingBaseCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KingBaseCategory.modulemap; sourceTree = "<group>"; };
-		7900BD294169C72935B4CFCAAE9D8ABD /* WZLBadge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WZLBadge.modulemap; sourceTree = "<group>"; };
-		7E943E6185FDF5B0BB82E8C3DE93B932 /* MHTabBarItemConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHTabBarItemConfig.m; path = Classes/MHTabBarItemConfig.m; sourceTree = "<group>"; };
+		784B1417A030CD9C79D23D36D76FE830 /* KingBaseCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KingBaseCategory.modulemap; sourceTree = "<group>"; };
+		7900BD294169C72935B4CFCAAE9D8ABD /* WZLBadge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WZLBadge.modulemap; sourceTree = "<group>"; };
+		7F53AC91DE8CE7E8085146DF90EF0FE2 /* MHDefaultTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHDefaultTabBarController.h; path = Classes/MHDefaultTabBarController.h; sourceTree = "<group>"; };
 		7FDFA4B1D227D3BDB8764D75B6D6B08D /* UIImage+KingExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KingExtension.m"; path = "Classes/UIImage/UIImage+KingExtension.m"; sourceTree = "<group>"; };
 		8100797EE5C45B441D2058D55343A7B3 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "Classes/UIImage/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		837FFACF9CAA9422FBF0BAA92E887FAF /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = Classes/TestViewController.h; sourceTree = "<group>"; };
 		89491DA043E808BB2C5F5626531DD375 /* UIImage+Cut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Cut.h"; path = "Classes/UIImage/UIImage+Cut.h"; sourceTree = "<group>"; };
+		8CBC7238FD8074CED5B813B8BD8961AF /* MHDefaultTabBarVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MHDefaultTabBarVC.modulemap; sourceTree = "<group>"; };
 		8E8137414E35A71796ADFB14E5BC2FB4 /* NSObject+MHJDeviceTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MHJDeviceTools.h"; path = "Classes/NSObject/NSObject+MHJDeviceTools.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9440756087765476529B42483F167EE1 /* KingBaseCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KingBaseCategory-umbrella.h"; sourceTree = "<group>"; };
-		951C573238A24680865870B8AC49FBFE /* MHTabBarItemConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHTabBarItemConfig.h; path = Classes/MHTabBarItemConfig.h; sourceTree = "<group>"; };
 		96902B946DCF07489CCF61C605684C9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AE7E4825C085C1F39661C98ED8F7518 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "Classes/UIImage/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		9AEF53C62EB668E61CA9FE36628A002A /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "Classes/UIImage/UIImage+Color.h"; sourceTree = "<group>"; };
 		9B0B1C7B50BC394FF3CA1CA9BB2E39FF /* UIImage+Cut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Cut.m"; path = "Classes/UIImage/UIImage+Cut.m"; sourceTree = "<group>"; };
 		9B72AA58C05CB3B68A7DC1848B6CEB2E /* WZLBadge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZLBadge-dummy.m"; sourceTree = "<group>"; };
 		9EEF5B5B76691BDC3F8984B674279840 /* UIFont+MHJFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MHJFont.h"; path = "Classes/UIFont/UIFont+MHJFont.h"; sourceTree = "<group>"; };
-		A5F4C8EEDBBB7E4A10E6AE30AB4F72C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A9A03149F07CCAB6B13947092A213E19 /* MHDefaultTabBarVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHDefaultTabBarVC-prefix.pch"; sourceTree = "<group>"; };
+		AC8324E6D3F2EF2FDAE43E03ACD4EE0E /* MHDefaultTabBarVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHDefaultTabBarVC-umbrella.h"; sourceTree = "<group>"; };
 		B649531E9209BBC68E05341E11A7C6AB /* NSObject+MHJDeviceTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MHJDeviceTools.m"; path = "Classes/NSObject/NSObject+MHJDeviceTools.m"; sourceTree = "<group>"; };
 		BC838FF8D62B041E009F6AC43AAD7AE4 /* UIImage+KingExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KingExtension.h"; path = "Classes/UIImage/UIImage+KingExtension.h"; sourceTree = "<group>"; };
-		BECAE4E1FF4E8432BD147CB2F6BB1FC7 /* MHDefaultTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHDefaultTabBarController.h; path = Classes/MHDefaultTabBarController.h; sourceTree = "<group>"; };
-		C6115D457D054BA5FDF7384376AF128A /* KingBaseCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KingBaseCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057E30A06BAAF15C8A7393D832D41B0 /* MHTabBarItemConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHTabBarItemConfig.m; path = Classes/MHTabBarItemConfig.m; sourceTree = "<group>"; };
+		C6115D457D054BA5FDF7384376AF128A /* KingBaseCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KingBaseCategory.framework; path = KingBaseCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		CAB5FAEE5E9CE6A9F5454096EA040F84 /* WZLBadgeImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZLBadgeImport.h; path = WZLBadge/WZLBadgeImport.h; sourceTree = "<group>"; };
 		CCFEAB8DD71582CA615C370D47B9D09B /* KingBaseCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KingBaseCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D7A0DDB2EEA0F01FF543302B38D7DF /* MHDefaultTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHDefaultTabBarController.m; path = Classes/MHDefaultTabBarController.m; sourceTree = "<group>"; };
 		E17FAF946019055146ED2FDA8C6B7EF2 /* UITabBarItem+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+WZLBadge.h"; path = "WZLBadge/BarItem/UITabBarItem+WZLBadge.h"; sourceTree = "<group>"; };
 		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5B36AAF33779716DF42A1307EF64532 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = Classes/TestViewController.m; sourceTree = "<group>"; };
 		E727B317BBF83F2964A5067411CE76AB /* UIImage+MHBundleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MHBundleImage.m"; path = "Classes/UIImage/UIImage+MHBundleImage.m"; sourceTree = "<group>"; };
+		E9558A1F8C944E5889491F5FB18F9DF3 /* MHDefaultTabBarVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHDefaultTabBarVC-prefix.pch"; sourceTree = "<group>"; };
 		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F207F975C7C5625D734A0EE569ACAEFD /* MHDefaultTabBarVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHDefaultTabBarVC-dummy.m"; sourceTree = "<group>"; };
-		F4027D822DFE631553D1C0A1D48537CC /* MHTabBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHTabBarConfig.m; path = Classes/MHTabBarConfig.m; sourceTree = "<group>"; };
 		F6CE9B32024ED4C7EF42AE4B95FFB834 /* UIImage+Water.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Water.m"; path = "Classes/UIImage/UIImage+Water.m"; sourceTree = "<group>"; };
 		F76F9A6D65C0F59945D7C01F882EC979 /* UIBarButtonItem+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+WZLBadge.m"; path = "WZLBadge/BarItem/UIBarButtonItem+WZLBadge.m"; sourceTree = "<group>"; };
 		FA8C7701CE2A88E40075DC58A6CA8C13 /* KingBaseCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KingBaseCategory-dummy.m"; sourceTree = "<group>"; };
+		FBE2056DDE096B70CDF1FDE76F74042E /* MHTabBarItemConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHTabBarItemConfig.h; path = Classes/MHTabBarItemConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,23 +218,6 @@
 			name = "NSObject+";
 			sourceTree = "<group>";
 		};
-		2106EFB30DA03C964225CEE449488AE1 /* MHDefaultTabBarVC */ = {
-			isa = PBXGroup;
-			children = (
-				BECAE4E1FF4E8432BD147CB2F6BB1FC7 /* MHDefaultTabBarController.h */,
-				518ECC2725D8CCF77E6F4F0E1D5A3979 /* MHDefaultTabBarController.m */,
-				094F173F1FC73B2000E54A5F /* TestViewController.h */,
-				094F17401FC73B2000E54A5F /* TestViewController.m */,
-				2CB3A4450BC5F89EC755FB8EAEFEE575 /* MHTabBarConfig.h */,
-				F4027D822DFE631553D1C0A1D48537CC /* MHTabBarConfig.m */,
-				951C573238A24680865870B8AC49FBFE /* MHTabBarItemConfig.h */,
-				7E943E6185FDF5B0BB82E8C3DE93B932 /* MHTabBarItemConfig.m */,
-				287F0F8F8640611724BDA5CC5446567A /* Support Files */,
-			);
-			name = MHDefaultTabBarVC;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		24CF99B935EA1765F2795C0EAD7F6C0B /* UIFont+ */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,15 +227,15 @@
 			name = "UIFont+";
 			sourceTree = "<group>";
 		};
-		287F0F8F8640611724BDA5CC5446567A /* Support Files */ = {
+		3007086590DC843D468A9080185C82E8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5F4C8EEDBBB7E4A10E6AE30AB4F72C4 /* Info.plist */,
-				307EE119E6568E4D1A369CF5C1B39710 /* MHDefaultTabBarVC.modulemap */,
-				52601602CDB2C3C796FA15733C7CE694 /* MHDefaultTabBarVC.xcconfig */,
-				F207F975C7C5625D734A0EE569ACAEFD /* MHDefaultTabBarVC-dummy.m */,
-				A9A03149F07CCAB6B13947092A213E19 /* MHDefaultTabBarVC-prefix.pch */,
-				560EC675B483DC8547DA711AFA38AAD7 /* MHDefaultTabBarVC-umbrella.h */,
+				56762A25DD0BC160B8F4762758B1074D /* Info.plist */,
+				8CBC7238FD8074CED5B813B8BD8961AF /* MHDefaultTabBarVC.modulemap */,
+				301932D70F4583E40B724DD88F298626 /* MHDefaultTabBarVC.xcconfig */,
+				29D995C02AF05010876C8D47E9F2CA61 /* MHDefaultTabBarVC-dummy.m */,
+				E9558A1F8C944E5889491F5FB18F9DF3 /* MHDefaultTabBarVC-prefix.pch */,
+				AC8324E6D3F2EF2FDAE43E03ACD4EE0E /* MHDefaultTabBarVC-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MHDefaultTabBarVC";
@@ -265,7 +244,7 @@
 		45FA5AB0DEBF2DA140D4389F0D31371E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2106EFB30DA03C964225CEE449488AE1 /* MHDefaultTabBarVC */,
+				6460655D3AE9A1F568A2040896B4E5B7 /* MHDefaultTabBarVC */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -279,6 +258,7 @@
 				24CF99B935EA1765F2795C0EAD7F6C0B /* UIFont+ */,
 				554F1B2383B3E6D1C6D06AF9B41B062A /* UIImage+ */,
 			);
+			name = KingBaseCategory;
 			path = KingBaseCategory;
 			sourceTree = "<group>";
 		};
@@ -299,6 +279,21 @@
 				F6CE9B32024ED4C7EF42AE4B95FFB834 /* UIImage+Water.m */,
 			);
 			name = "UIImage+";
+			sourceTree = "<group>";
+		};
+		6460655D3AE9A1F568A2040896B4E5B7 /* MHDefaultTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F53AC91DE8CE7E8085146DF90EF0FE2 /* MHDefaultTabBarController.h */,
+				D5D7A0DDB2EEA0F01FF543302B38D7DF /* MHDefaultTabBarController.m */,
+				FBE2056DDE096B70CDF1FDE76F74042E /* MHTabBarItemConfig.h */,
+				C057E30A06BAAF15C8A7393D832D41B0 /* MHTabBarItemConfig.m */,
+				837FFACF9CAA9422FBF0BAA92E887FAF /* TestViewController.h */,
+				E5B36AAF33779716DF42A1307EF64532 /* TestViewController.m */,
+				3007086590DC843D468A9080185C82E8 /* Support Files */,
+			);
+			name = MHDefaultTabBarVC;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
@@ -412,6 +407,7 @@
 				242A0C1AA152C74E0235491861CABD28 /* WZLBadgeProtocol.h */,
 				E01BD31FA7CEF253E095E93D1FB4C2B3 /* Support Files */,
 			);
+			name = WZLBadge;
 			path = WZLBadge;
 			sourceTree = "<group>";
 		};
@@ -450,17 +446,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C045C2C39AC49F3B1D66DC5676B264 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC1E169AC188294D451EF629DC15C89 /* MHDefaultTabBarController.h in Headers */,
-				179134ABC5F9F57CA622C54E42172C8F /* MHDefaultTabBarVC-umbrella.h in Headers */,
-				969F59F925750B1ED9AF7223ADDB6725 /* MHTabBarConfig.h in Headers */,
-				8ECA51FFD96FCC259BB4387A09A54E19 /* MHTabBarItemConfig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		89ED60D4F750A39C50C58A2CE9B3CC90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,9 +458,19 @@
 				DBAEC1A79E853BA2C1DB850631F1CB4A /* UIImage+Cut.h in Headers */,
 				427BABCCAB58D44BE69CED6150C2CC6F /* UIImage+FixOrientation.h in Headers */,
 				42417FCF6004971E4177E3234B22F52A /* UIImage+KingExtension.h in Headers */,
-				094F17411FC73B2000E54A5F /* TestViewController.h in Headers */,
 				5900BFEF567D6D3534BE140453F891F3 /* UIImage+MHBundleImage.h in Headers */,
 				8C04135E3A6519C57955E59F85D78C98 /* UIImage+Water.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A056815107C9B073C0CFC6A1104CFF25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C51527AB9868415B3598AC07F453C2B /* MHDefaultTabBarController.h in Headers */,
+				459CE24804E2358F5392EAA1EB9F2F4E /* MHDefaultTabBarVC-umbrella.h in Headers */,
+				7BA54B9D79C1B4879C79568AD3E94394 /* MHTabBarItemConfig.h in Headers */,
+				082E355FB31DDC070630652F178CE9F1 /* TestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,9 +489,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29D91B60DFAB46F493D238A56296FEA3 /* Build configuration list for PBXNativeTarget "MHDefaultTabBarVC" */;
 			buildPhases = (
-				883E030AEB65403D673A433D785CAB2E /* Sources */,
+				CA25435C21A4260835085DECC2CD99D0 /* Sources */,
 				0B92F892A594526006D2A959AC39E444 /* Frameworks */,
-				70C045C2C39AC49F3B1D66DC5676B264 /* Headers */,
+				A056815107C9B073C0CFC6A1104CFF25 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -593,17 +588,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		883E030AEB65403D673A433D785CAB2E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				004EC35F52608515DB0F1AE3FB1D8FB5 /* MHDefaultTabBarController.m in Sources */,
-				1B4ECF54442DA6029C115B65278A00C3 /* MHDefaultTabBarVC-dummy.m in Sources */,
-				F8276306EFFA779EFA457CB2DC93FCD5 /* MHTabBarConfig.m in Sources */,
-				D3F22D6E4FBB6E495CB16F65CD00D0EB /* MHTabBarItemConfig.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88ADC009E4297C4E6063A2C09E84BE44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,7 +607,6 @@
 				BE0AB04B238B3152B58231629FD407FE /* UIImage+Color.m in Sources */,
 				82929D94D445C2A5D56E54B3ACE3E0BA /* UIImage+Cut.m in Sources */,
 				443340FFB4441B664F9AA642C64D17D8 /* UIImage+FixOrientation.m in Sources */,
-				094F17421FC73B2000E54A5F /* TestViewController.m in Sources */,
 				A06851633B1F4B33336DBAE2870BF636 /* UIImage+KingExtension.m in Sources */,
 				BBF7EBC53C765DF7C933FE9AA1627DAD /* UIImage+MHBundleImage.m in Sources */,
 				56FB3E6B4C8FDFDD17C203C557BA1232 /* UIImage+Water.m in Sources */,
@@ -639,6 +622,17 @@
 				5D444D0B9CAB70D9936E7ED7733D6C8B /* UITabBarItem+WZLBadge.m in Sources */,
 				3FC6723A723440ED16B11E098455D083 /* UIView+WZLBadge.m in Sources */,
 				E9BA014D12D6A494C15604EAF869EEAF /* WZLBadge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA25435C21A4260835085DECC2CD99D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460A62773F56F0CC81E202ACBFBCF83D /* MHDefaultTabBarController.m in Sources */,
+				6BEF69C364C33FD87639D826181F89C9 /* MHDefaultTabBarVC-dummy.m in Sources */,
+				B8326E74B505C49B505F5C394BD8851A /* MHTabBarItemConfig.m in Sources */,
+				5FAC8BC4AF45FD9F1E1963DCB8E7E6EA /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,7 +707,7 @@
 		};
 		0EDA4869ADD5A2C7B4692307016444AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52601602CDB2C3C796FA15733C7CE694 /* MHDefaultTabBarVC.xcconfig */;
+			baseConfigurationReference = 301932D70F4583E40B724DD88F298626 /* MHDefaultTabBarVC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -884,7 +878,7 @@
 		};
 		7A4507A73158A9396B375BCB399B26E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52601602CDB2C3C796FA15733C7CE694 /* MHDefaultTabBarVC.xcconfig */;
+			baseConfigurationReference = 301932D70F4583E40B724DD88F298626 /* MHDefaultTabBarVC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

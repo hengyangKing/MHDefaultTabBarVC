@@ -8,9 +8,7 @@
 #import "MHDefaultTabBarController.h"
 #import "UIImage+KingExtension.h"
 #import "WZLBadgeImport.h"
-#import "TestViewController.h"
 @interface MHDefaultTabBarController ()<UITabBarDelegate>
-@property(nonatomic,strong)MHTabBarConfig *config;
 @property(nonatomic,strong)NSMutableArray *items;
 
 @end
@@ -34,7 +32,6 @@
     MHDefaultTabBarController *tabbar = [[MHDefaultTabBarController alloc]init];
     return tabbar;
 }
-
 -(NSMutableArray *)items
 {
     if (!_items) {
@@ -43,27 +40,20 @@
 
         NSArray *titles = @[@"教学",@"资讯",@"乐器",@"动态",@"我的"];
         NSArray *images = @[@"tab_teaching",@"tab_news",@"v1_tab_Instrument",@"v1_tab_dynamic",@"v1_tab_my"];
+        NSArray *controllers = @[@"TestViewController",@"TestViewController",@"TestViewController",@"TestViewController",@"TestViewController"];
+        
         for(int i = 0 ;i<images.count;i++){
-            UIViewController *vc=[[TestViewController alloc]init];
+            UIViewController *vc=[[NSClassFromString(controllers[i]) alloc]init];
             MHTabBarItemConfig *item = [MHTabBarItemConfig createTabbarItemModelWithChild:[[UINavigationController alloc]initWithRootViewController:vc] andImage:images[i] andTitle:titles[i]];
             [_items addObject:item];
         }
     }
     return _items;
 }
--(void)setDelegate:(id<UITabBarControllerDelegate>)delegate
-{
-    [super setDelegate:delegate];
-    
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupTabbar];
     [self createItems];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.selectedIndex = 3;
-    });
-    
 }
 
 -(void)setupTabbar{
@@ -74,7 +64,6 @@
     
     for (MHTabBarItemConfig *item in self.items) {
         [arr addObject:item.childVC];
-//        [self addChildViewController:item.childVC];
     }
     self.viewControllers = arr;
     NSLog(@"%@",self.tabBar.items);
